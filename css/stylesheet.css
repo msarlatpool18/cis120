@@ -1,3 +1,40 @@
-h1 {
-color: red;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #e6ffe6;
 }
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #1aff8c;
+}
+
+li a.active {
+  color: white;
+  background-color: #00ff00;}
+  
+  body{
+  border: 5px solid black;
+  background: lightgreen;
+  background-size: 100px 80px;
+  background-repeat: no-repeat;
+  padding:15px;}
+  
+  h1{
+  color: darkblue;}
+  h1{
+  border: solid blue;}
