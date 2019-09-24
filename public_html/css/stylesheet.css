@@ -1,6 +1,50 @@
-h1 {
-	color: red;
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 25px 30px 25px;
+    padding: 25px 35px 25px;
+    background-color:#805C38;
+}
+
+li {
+    float: left;
+    font-size: 25px
+}
+
+li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding:25px 35px 25px;
+      text-decoration: none;
+}
+
+li a:hover {
+     background-color: #804F12;
+}
+
+p {
+	font-size:19px;
+	float: center;
 }
 p {
-	font-size: 16px;
+  background-color: #E8B74D;
+}
+
+body{
+	background-color: #FFA92C;
+}
+
+h1 {
+  	font-size: 50px;
+  	background-color: #FFDB54;
+}
+
+h2 {
+	font-size:35px;
+	background-color: #FFDB54;
+}
+
+h3 {
+	float: center;
 }
