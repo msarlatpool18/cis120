@@ -1,4 +1,4 @@
-ul {
+ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -38,3 +38,16 @@ li a.active {
   color: darkblue;}
   h1{
   border: solid blue;}
+  
+  div{border-style: solid;
+  border: 3px solid blue;
+  margin-right: 150px;
+  margin-left: 80px;
+  border-radius: 8px;
+  display: block;
+  color: #000000;
+  text-align: center;
+   
+  padding: 18px 5px;
+  text-decoration: none;
+  font-size: 20px}
