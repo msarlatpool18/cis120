@@ -3,7 +3,7 @@ ul {
     overflow: hidden;
     margin: 25px 30px 25px;
     padding: 25px 35px 25px;
-    background-color:#805C38;
+    background-color:#FCFAAC;
 }
 
 li {
@@ -13,14 +13,14 @@ li {
 
 li a {
       display: block;
-      color: white;
+      color: maroon;
       text-align: center;
       padding:25px 35px 25px;
       text-decoration: none;
 }
 
 li a:hover {
-     background-color: #804F12;
+     background-color: #FFB8BF;
 }
 
 p {
@@ -28,11 +28,11 @@ p {
 	float: center;
 }
 p {
-  background-color: #E8B74D;
+  background-color: #789FB3
 }
 
 body{
-	background-color: #FFA92C;
+	background-color: #97BACC;
 }
 
 h1 {
