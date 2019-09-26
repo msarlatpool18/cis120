@@ -5,36 +5,65 @@
 <head>
     <meta charset="utf-8">
     <title>Sales Page</title>
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sandstone/boot">
+ <style>
+      .mycolor {
+        background-color: #EEEEEE;
+        border-style: solid;
+        border-width: 1px;
+      }
+      .container {
+        background-color: #FFFFEE;
+        border-style: solid;
+        border-width: 1px;
+      }
+    </style>
 </head>
 
 <body>
-<ul>    
-    <li><a class="active" href="index.html"> Home</a></li>
-    <li><a href="about.html">About Us</a></li>
-    <li><a href="information.html">Information</a></li>
-    <li><a href="sales.html">Sales</a></li>
-    <li><a href="directions.html">Directions & Locations</a></li>
-    <li><a href="help.html">Help</a></li>
-</ul>
-<header>
-  <style>
-    table {
-  border-collapse: collapse;
-  width: 100%;
-}
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Pear Phone Ultimate</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-th, td {
-  text-align: left;
-  font-size: 20px;
-  padding: 20px 50px 50px 20px;
-  background-color: white;
-  color:#3473B3;
-}
-  </style>
-  <h1>Sales Figures for the Pear Phone Ultimate</h1>
-</header>
-<p>The following figure is showing how the company responsible for the Pear Phone Ultimate is outdoing its competitors and how you will be able to rely on them to continue to be able to bring the latest and greatest in smartphone development.</p>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="information.html">Information</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="sales.html">Sales</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="directions_locations.html">Directions & Locations</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="help.html">Help</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+  <div class="container">
+    <h1> Sales Figures for the Pear Phone Ultimate</h1>
+        <p>The following figure is showing how the company responsible for the Pear Phone Ultimate is outdoing its competitors and how you will be able to rely on them to continue to be able to bring the latest and greatest in smartphone development.</p>
+          <div class="row">
+            <div class="mycolor col-6">
         <table>
   <thead>
     <tr>
@@ -63,10 +92,18 @@ th, td {
     </tr>
   </tfoot>
 </table>
-         
+</div>
+
+<div class="mycolor col-6">
+  <p>An observer from PearInsider commented on the data from the past year of sales with the competitor's data of their first generation phones, saying that it was "quite unusual" for a phone to reach the numbers that the Pear Phone has in it's first six months of release. In accorance with the baseline sales of the Pear Phone Ultimate, it is projected to be the top selling phone of the 2020 season among other competitors.</p>
+</div>
+
 <footer>
     <div>&copy; PPU. All Rights Reserved</div>
 </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
          
