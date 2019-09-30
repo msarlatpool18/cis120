@@ -5,19 +5,49 @@
 <head>
  <meta charset="utf-8">
  <title>Information Page</title>
- <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+ <!-- This says our CSS is compatible with phones, and phones
+ don't need to scale it strangely. -->
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+ <!-- Main CSS styles for Bootstrap -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+ <!-- Optional theme add-on -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/minty/bootstrap.min.css">
 </head>
 
 <body>
- <nav>
-  <ul>
-   <li><a href="index.html"> Home Page</a></li>
-   <li><a href="about.html">About</a></li>
-   <li><a href="information.html">Info Page</a></li>
-   <li><a href="sales.html">Sale Page</a></li>
-   <li><a href="directions.html">Directions Page</a></li>
-   <li><a href="help.html">Help Page</a></li>
-  </ul>
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">Pear Co.</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" 
+   data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+   aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+     <li class="nav-item">
+      <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="about.html">About</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="directions.html">Location</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="help.html">Help</a>
+     </li>
+     <li class="nav-item active">
+      <a class="nav-link" href="information.html">Information</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="sales.html">Sales</a>
+     </li>
+    </div>
+    </li>
+   </ul>
+  </div>
  </nav>
 
  <header>
